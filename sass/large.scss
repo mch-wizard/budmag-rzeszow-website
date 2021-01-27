@@ -1,0 +1,179 @@
+.scroll-fix::before {
+    margin-top: -111.8px;
+    height: 111.8px;
+}
+
+.navigation {
+    &__logo-link {
+        margin-left: 30px;
+        padding: 10px 20px;
+    }
+
+    &__logo {
+        height: 87px;
+        width: 225px;
+    }
+
+    .navigation-menu {
+        &__phone {
+            display: none;
+        }
+        &__number {
+            display: block;
+            // padding-right: 30px;
+            margin-right: 30px;
+            padding: 10px 10px;
+            border: 2px solid #FFD700;
+        }
+    }
+
+    .navigation-box {
+        top: 111.8px;
+    }
+    
+    .navigation-list {
+        font-size: 30px;
+    }
+}
+
+.introduction-site {
+    .introduction-text {
+        &__intro {
+            font-size: 36px;
+            width: 440px;
+        }
+    }
+
+    .introduction-short {
+        padding: 30px 70px;
+    }
+}
+
+//--SERVICES
+.services {
+    .services-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .services-box {
+        flex-direction: row;
+        width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .item-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 350px;
+
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(6),
+        &:nth-child(8),
+        &:nth-child(10) {
+            margin-left: 10px;
+        }
+
+        &__title {
+            padding: 0 45px;
+        }
+    }
+    
+}
+
+//--STAGES
+.stages {
+    .stages-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stages-box {
+        flex-direction: row;
+        width: 800px;
+        flex-wrap: wrap;
+    }
+
+    .stage-item {
+        height: 500px;
+        width: 350px;
+
+        &:nth-child(2),
+        &:nth-child(4) {
+            margin-left: 10px;
+        }
+    }
+}
+
+//--REALIZATIONS
+.realizations {
+    .realizations-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .realizations-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        grid-auto-rows: auto;
+    }
+
+    .realization-item {
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(6),
+        &:nth-child(8),
+        &:nth-child(10) {
+            padding-top: 50px;
+            padding-left: 15px;
+        }
+
+        &__img {
+            &--modify-height {
+                height: 620px;
+            }
+
+            &--modify-height2 {
+                height: 290px;
+            }
+        }
+    }
+
+}
+
+//--COMPANY
+.company {
+    .company-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .company-box {
+        flex-direction: row;
+        width: 800px;
+        flex-wrap: wrap;
+    }
+
+}
+
+//--CONTACT
+.contact {
+    .contact-box {
+        &__item-title,
+        &__item {
+            font-size: 22px;
+        }
+    }
+}
+
+
+//--MEDIA QUERIES
+
+//item-box powiększyć i title !

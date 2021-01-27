@@ -1,0 +1,81 @@
+.wrapper__title {
+  font-size: 34px;
+}
+
+.introduction-site .introduction-text__intro {
+  font-size: 30px;
+  width: 440px;
+}
+
+.introduction-site .introduction-short {
+  padding: 15px 50px;
+}
+
+.introduction-site .introduction-short::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 5px;
+  left: 10px;
+  border: 1px solid #FFD700;
+  z-index: -1;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.introduction-site .introduction-short:hover::before {
+  -webkit-transform: translate(-10px, -5px);
+          transform: translate(-10px, -5px);
+  z-index: 0;
+}
+
+.introduction-site .introduction-short::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: 1px solid #FFD700;
+  -webkit-transition: -webkit-transform 0.15s ease-out 0s;
+  transition: -webkit-transform 0.15s ease-out 0s;
+  transition: transform 0.15s ease-out 0s;
+  transition: transform 0.15s ease-out 0s, -webkit-transform 0.15s ease-out 0s;
+}
+
+.introduction-site .introduction-short:hover::after {
+  -webkit-transform: translate(10px, 5px);
+          transform: translate(10px, 5px);
+}
+
+.introduction-site .introduction-short__offer, .introduction-site .introduction-short__offer-cd {
+  font-size: 22px;
+}
+
+.services .item-box {
+  padding: 60px 0;
+  width: 75%;
+}
+
+.services .item-box__title {
+  font-size: 22px;
+}
+
+.stages .stage-item {
+  width: 75%;
+}
+
+.stages .stage-item__title, .stages .stage-item__description {
+  font-size: 22px;
+}
+
+.company .company-item {
+  height: 250px;
+  width: 250px;
+}
+
+.company .company-item__text {
+  font-size: 20px;
+}
+/*# sourceMappingURL=medium.css.map */
