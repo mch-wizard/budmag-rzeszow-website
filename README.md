@@ -11,7 +11,7 @@ The purpose of the website is to promote the company and its services, as well a
 Project is created with:
 * HTML - Version: 5
 * CSS - Version: 3
-* Sass - Version:
+* Sass - Version: 3.5.6
 * JavaScript - Version: ES6
 
 ## Contact
