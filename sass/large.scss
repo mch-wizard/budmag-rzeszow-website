@@ -32,7 +32,12 @@
     }
     
     .navigation-list {
+        margin-top: 50px;
         font-size: 30px;
+
+        &__item {
+            margin-bottom: 30px;
+        }
     }
 }
 

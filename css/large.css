@@ -29,7 +29,12 @@
 }
 
 .navigation .navigation-list {
+  margin-top: 50px;
   font-size: 30px;
+}
+
+.navigation .navigation-list__item {
+  margin-bottom: 30px;
 }
 
 .introduction-site .introduction-text__intro {
