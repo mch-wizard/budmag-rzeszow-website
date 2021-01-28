@@ -39,7 +39,6 @@ body {
     }
 }
 
-//-------We create the 'before' element of the section and raise it by the height of the menu.
 .scroll-fix::before {
     display: block;
     margin-top: -82px;
@@ -114,7 +113,6 @@ body {
         height: 24px;
         display: inline-block;
         position: relative;
-        // background-color: pink;
 
         @mixin hamburger-line {
             width: 100%;
@@ -132,7 +130,7 @@ body {
             transition: background-color .1s .2s ease-in-out;
 
             &::before,
-                    &::after {
+            &::after {
                 width: 100%;
                 height: 3px;
                 background-color: $dark-color;
@@ -207,7 +205,7 @@ body {
 //--HEADER
 .introduction-site {
     color: #ffffff;
-    overflow: hidden;    // We add so that the animation when it flies in does not go beyond the section area.
+    overflow: hidden;
     
     .introduction-img {
         position: relative;
@@ -491,7 +489,6 @@ body {
 
 //--CONTACT
 .contact {
-    // height: 100vh;
     .contact-wrapper {
         display: flex;
         justify-content: center;
@@ -546,7 +543,6 @@ body {
             &__item {
                 margin-bottom: 20px;
             }
-           
         }
     }
 }
@@ -560,7 +556,6 @@ body {
             &__item {
                 margin-bottom: 20px;
             }
-           
         }
     }
 }
