@@ -219,10 +219,9 @@ body {
 .introduction-site .introduction-img {
   position: relative;
   height: 100vh;
-  background-image: url("../img/house-header.jpg");
+  background: url("../img/house-header.jpg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: 0;
 }
 
@@ -335,7 +334,7 @@ body {
 
 .services .services-img {
   position: relative;
-  background-image: url("../img/services-hero.jpg");
+  background: url("../img/services-hero.jpg");
   background-position: center;
   background-size: cover;
   z-index: 0;
@@ -481,10 +480,9 @@ body {
 
 .company .company-img {
   position: relative;
-  background-image: url("../img/company-selection-hero.jpeg");
+  background: url("../img/company-selection-hero.jpeg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: 0;
 }
 
